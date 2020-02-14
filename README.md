@@ -7,13 +7,13 @@ This Android app is designed to better manage librarians' book keeping.
 
 * Use Library
   
-  * Glide https://github.com/bumptech/glide
+  * Glide : https://github.com/bumptech/glide
   
-  * Httpurlconnection  https://developer.android.com/reference/java/net/HttpURLConnection
+  * Httpurlconnection : https://developer.android.com/reference/java/net/HttpURLConnection
   
-  * RecyclerView  https://developer.android.com/guide/topics/ui/layout/recyclerview
+  * RecyclerView : https://developer.android.com/guide/topics/ui/layout/recyclerview
   
-  * DataBinding  https://developer.android.com/topic/libraries/data-binding
+  * DataBinding : https://developer.android.com/topic/libraries/data-binding
   
 
 * 구현화면 Implementation screen
