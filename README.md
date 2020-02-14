@@ -7,13 +7,13 @@ This Android app is designed to better manage librarians' book keeping.
 
 *Use Library
   
-  *Glide
+  Glide
   
-  *Httpurlconnection
+  Httpurlconnection
   
-  *RecyclerView
+  RecyclerView
   
-  *DataBinding
+  DataBinding
   
 
 * 구현화면 Implementation screen
