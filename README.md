@@ -5,6 +5,17 @@ This Application is Wireless Bookcase.
 
 This Android app is designed to better manage librarians' book keeping.
 
+*Use Library
+  
+  *Glide
+  
+  *Httpurlconnection
+  
+  *RecyclerView
+  
+  *DataBinding
+  
+
 * 구현화면 Implementation screen
 
   ![show_shelf](https://user-images.githubusercontent.com/55890012/74550364-9d3d0f00-4f94-11ea-85bd-0782095570d1.gif)
