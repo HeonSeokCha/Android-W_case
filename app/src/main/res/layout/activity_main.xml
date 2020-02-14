@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        style="@style/share_act_theme">
+
+
+    <ImageView
+        android:id="@+id/img_main_title"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="105dp"
+        android:transitionName="main_title_img"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_title" />
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름없는 책장"
+        android:layout_marginTop="200dp"
+        android:textSize="30dp"
+        android:textColor="#4F4F4F"
+        android:fontFamily="@font/nanum_exbold"
+        android:transitionName="main_title_transitions"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사서를 위한 최고의 앱"
+        android:textSize="22dp"
+        android:textColor="#8C8C8C"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/nanum_exbold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_do_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/xml_btn_round"
+        android:fontFamily="@font/nanum_exbold"
+        android:text="로 그 인"
+        android:transitionName="btn_login_transitions"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_do_create_user"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:background="@drawable/xml_btn_round"
+        android:fontFamily="@font/nanum_exbold"
+        android:text="계정 만들기"
+        android:transitionName="btn_create_user_transitions"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
