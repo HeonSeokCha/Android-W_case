@@ -5,15 +5,15 @@ This Application is Wireless Bookcase.
 
 This Android app is designed to better manage librarians' book keeping.
 
-*Use Library
+* Use Library
   
-  Glide
+  * Glide https://github.com/bumptech/glide
   
-  Httpurlconnection
+  * Httpurlconnection  https://developer.android.com/reference/java/net/HttpURLConnection
   
-  RecyclerView
+  * RecyclerView  https://developer.android.com/guide/topics/ui/layout/recyclerview
   
-  DataBinding
+  * DataBinding  https://developer.android.com/topic/libraries/data-binding
   
 
 * 구현화면 Implementation screen
